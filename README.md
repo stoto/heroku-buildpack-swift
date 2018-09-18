@@ -70,8 +70,8 @@ This is useful if you would need to install any other dependencies.
 
 ## Using the latest buildpack code
 
-The `kyle/swift` buildpack from the [Heroku Registry](https://devcenter.heroku.com/articles/buildpack-registry) represents the latest stable version of the buildpack. If you'd like to use the latest buildpack code from this Github repository, you can set your buildpack to the Github URL:
+The `kyle/swift` buildpack from the [Heroku Registry](https://devcenter.heroku.com/articles/buildpack-registry) represents the latest stable version of the buildpack. If you'd like to use the latest buildpack code from this Github repository, you can set your buildpack to the GitHub URL:
 
-```sh-session
+```shell
 $ heroku buildpacks:set https://github.com/kylef/heroku-buildpack-swift
 ```
